@@ -46,7 +46,7 @@ class RandomFoodScreen extends StatelessWidget {
         } else if (state is RandomFoodErrorState) {
           return Scaffold(
               body: Container(
-                  child: Center(child: Text("Something wents Wrong"))));
+                  child: Center(child: Text("что-то пошло не так"))));
         } else if (state is FailureState) {
           return Scaffold(
               body: Center(
