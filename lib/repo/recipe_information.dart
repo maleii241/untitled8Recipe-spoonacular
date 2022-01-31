@@ -24,7 +24,7 @@ class RecipeInformation {
     } else if (response.statusCode == 401) {
       throw Failure(code: 401, message: body['message']);
     } else {
-      var msg = 'Something went wrong';
+      var msg = 'что-то пошло не так';
       if (body.containsKey('message')) {
         msg = body['message'];
       }
@@ -44,7 +44,7 @@ class RecipeInformation {
     } else if (response.statusCode == 401) {
       throw Failure(code: 401, message: body['message']);
     } else {
-      var msg = 'Something went wrong';
+      var msg = 'что-то пошло не так';
       if (body.containsKey('message')) {
         msg = body['message'];
       }
@@ -64,7 +64,7 @@ class RecipeInformation {
     } else if (response.statusCode == 401) {
       throw Failure(code: 401, message: body['message']);
     } else {
-      var msg = 'Something went wrong';
+      var msg = 'что-то пошло не так';
       if (body.containsKey('message')) {
         msg = body['message'];
       }
@@ -84,7 +84,7 @@ class RecipeInformation {
     } else if (response.statusCode == 401) {
       throw Failure(code: 401, message: body['message']);
     } else {
-      var msg = 'Something went wrong';
+      var msg = 'что-то пошло не так';
       if (body.containsKey('message')) {
         msg = body['message'];
       }
